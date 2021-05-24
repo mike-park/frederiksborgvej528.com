@@ -760,12 +760,12 @@
 
 			$(document).ready(function() {
 
-				var myCenter = new google.maps.LatLng(40.7791072,-73.94832989999999);
+				var myCenter = new google.maps.LatLng(55.729976, 12.1287783);
 
 				function loadMap() {
 				  	var mapProp = {
-					    center: new google.maps.LatLng(40.7791072,-73.92832989999999),
-					    zoom:14,
+					    center: new google.maps.LatLng(55.729976, 12.1287783),
+					    zoom:17,
 					    mapTypeId:google.maps.MapTypeId.ROADMAP,
 					    styles : [{featureType:'all',stylers:[{saturation:-100},{gamma:0.0}]}]
 					};
